@@ -23,3 +23,11 @@ rustup run beta cargo run -- username1
 (and possibly the above multiple times, probably with different usernames if you want to be able to tell them apart). If all goes well, you should be able to type in the client windows and see something like this:
 
 ![client screenshot](client-screenshot.png)
+
+## Author
+
+John Gallagher, johnkgallagher@gmail.com
+
+## License
+
+tokio-chat-example is available under the MIT license. See the LICENSE file for more info.
