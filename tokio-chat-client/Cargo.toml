@@ -1,0 +1,11 @@
+[package]
+name = "tokio-chat-client"
+version = "0.1.0"
+authors = ["John Gallagher <jgallagher@bignerdranch.com>"]
+
+[dependencies]
+cursive = "0.3.7"
+unicode-width = "0.1.4"
+futures = "0.1"
+tokio-core = "0.1"
+tokio-chat-common = { path = "../tokio-chat-common" }
