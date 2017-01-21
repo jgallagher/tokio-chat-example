@@ -1,6 +1,7 @@
 This is an attempt at a
 slightly-more-involved-but-still-small-enough-to-be-an-example example of a
-chat server using [tokio](https://tokio.rs). There are three crates present here:
+chat server using [tokio](https://tokio.rs). For a less involved chat server example, see [the chat server example from tokio-core](https://github.com/tokio-rs/tokio-core/blob/master/examples/chat.rs).
+There are three crates present here:
 
 * `tokio-chat-common` provides message data types and [codecs](https://docs.rs/tokio-core/0.1.3/tokio_core/io/trait.Codec.html) for client/server communication
 * `tokio-chat-server` has hopefully well-annotated source code (PRs/feedback welcome!)
